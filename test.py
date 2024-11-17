@@ -10,8 +10,8 @@ from email.mime.multipart import MIMEMultipart
 # Define your email credentials and message content
 subject = 'Welcome to Our Medical Diagnosis Enhancement Project!'
 email_sender = 'codecraftgroupproject@gmail.com'
-email_password = 'vqeteyodykvleztj'  # Use the app password here
-email_receiver = 'ipfi850@gmail.com'  # Replace with the actual recipient email
+email_password = 'Use the app password here'  # Use the app password here
+email_receiver = 'Replace with the actual recipient email'  # Replace with the actual recipient email
 
 
 # SMTP server configuration
