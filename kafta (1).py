@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 # Kafka setup
 producer = KafkaProducer(bootstrap_servers='localhost:9092')
 
-API_KEY = 'b306adcac73d9dfaab14e345187605b8'  # Your Weatherstack API key
+API_KEY = 'Enter your weatherstack API'  # Your Weatherstack API key
 city = 'Cape Town'
 BASE_URL = 'http://api.weatherstack.com/current'
 
