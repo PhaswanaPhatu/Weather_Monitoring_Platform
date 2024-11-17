@@ -48,9 +48,9 @@ def predict_and_expose_metrics():
 
     # Load the trained models from HDFS
     loaded_visibility_model = LinearRegressionModel.load(
-        "hdfs://localhost:9000/user/kwind/weather_predictor/Visibility_Model")
+        "hdfs://localhost:9000/user/Phatu/weather_predictor/Visibility_Model")
     loaded_wind_speed_model = LinearRegressionModel.load(
-        "hdfs://localhost:9000/user/kwind/weather_predictor/WindSpeed_Model")
+        "hdfs://localhost:9000/user/Phatu/weather_predictor/WindSpeed_Model")
 
     # Load the test data (assuming it's in Parquet format, adjust path as needed)
     test_data = spark.read.parquet("hdfs://localhost:9000/weather_data")
